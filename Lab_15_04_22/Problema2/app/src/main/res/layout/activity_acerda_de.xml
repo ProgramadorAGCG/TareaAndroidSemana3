@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_x="7dp"
+        android:layout_y="125dp"
+        android:text="En nuestra vida, desde que nacemos todo lo probamos, ensayamos y testeamos; así también erramos, caemos pero por sobre todo aprendemos. Es decir, todo lo que hacemos forma parte de una nueva experiencia, de un PROYECTO. El que siempre exista la posibilidad de mejorarlo es lo que lo convierte en BETA. En este blog queremos compartir contenidos de tipo informático con artículos de programación, software libre y propietario, redes, base de datos, noticias, experiencias, etc… y también de humor. Es un sitio de todos y para todos. Participá! Sos importante …" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_x="89dp"
+        android:layout_y="367dp"
+        android:onClick="volver"
+        android:text="Volver" />
+
+</AbsoluteLayout>
